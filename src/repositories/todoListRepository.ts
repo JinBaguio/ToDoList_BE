@@ -57,11 +57,11 @@ export class todoListRepository {
         });
     }
 
-    public addToDoList(id: number, dtDue: String, no: String, status: String, taskAssingd: String, taskDesc: String): Promise<any> { 
+    public addToDoList(id: string, dtDue: String, no: String, status: String, taskAssingd: String, taskDesc: String): Promise<any> { 
         var params = {
             TableName: "ToDoList",
             Item:{
-                ID: id,
+                ID: Number (id),
                 DateDue: dtDue ,
                 No: Number(no),
                 Status: status,
@@ -79,14 +79,11 @@ export class todoListRepository {
         });
     }
 
-    public updateToDoList(id: number, dtDue: String, no: String, status: String, taskAssingd: String, taskDesc: String): Promise<any> { 
+    public updateToDoList(id: string, dtDue: String, no: String, status: String, taskAssingd: String, taskDesc: String): Promise<any> { 
         var params = {
             TableName: "ToDoList",
-            Key: {
-                ID: id
-            },
             Item:{
-                ID: id,
+                ID: Number (id),
                 DateDue: dtDue ,
                 No: Number(no),
                 Status: status,
@@ -94,7 +91,7 @@ export class todoListRepository {
                 TaskDescription: taskDesc
             }
         };
-        let request = dynamoDB.update(params).promise();
+        let request = dynamoDB.put(params).promise();
             return request.then((res) => {
                 console.info('successfully updated', res);
                 return res;
