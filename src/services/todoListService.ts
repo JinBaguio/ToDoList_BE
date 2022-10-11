@@ -16,11 +16,11 @@ export class todoListService {
         return this.todoListRepo.getListByNo(no);
     }
 
-    public addToDoList(id: number, dtDue: string, no: string, status: string, taskAssingd: string, taskDesc: string): Promise<any> {
+    public addToDoList(id: string, dtDue: string, no: string, status: string, taskAssingd: string, taskDesc: string): Promise<any> {
         return this.todoListRepo.addToDoList(id, dtDue, no, status, taskAssingd, taskDesc);
     }
 
-    public updateToDoList(id: number, dtDue: string, no: string, status: string, taskAssingd: string, taskDesc: string): Promise<any> {
+    public updateToDoList(id: string, dtDue: string, no: string, status: string, taskAssingd: string, taskDesc: string): Promise<any> {
         return this.todoListRepo.updateToDoList(id, dtDue, no, status, taskAssingd, taskDesc);
     }
 
