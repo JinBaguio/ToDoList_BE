@@ -1,0 +1,15 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 14
+    commands:
+      - ls
+      - npm install -g serverless
+  build:
+    commands:
+      - npm install --only=dev
+  post_build:
+    commands:
+      - serverless deploy --stage dev --package serverless --verbose
