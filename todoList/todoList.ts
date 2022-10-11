@@ -123,11 +123,11 @@ export function handler (event: any, context: any, callback: (...args: any[]) =>
     }
 
     function addToDoList(event: any, svc: todoListService): Promise<any> {
-        return svc.addToDoList(event.queryStringParameters.id, event.queryStringParameters.dtDue, event.queryStringParameters.no, event.queryStringParameters.status, event.queryStringParameters.taskAssingd, event.queryStringParameters.taskDesc);
+        return svc.addToDoList(event.body.id, event.body.dtDue, event.body.no, event.body.status, event.body.taskAssingd, event.body.taskDesc);
     }
 
     function updateToDoList(event: any, svc: todoListService): Promise<any> {
-        return svc.updateToDoList(event.queryStringParameters.id, event.queryStringParameters.dtDue, event.queryStringParameters.no, event.queryStringParameters.status, event.queryStringParameters.taskAssingd, event.queryStringParameters.taskDesc);
+        return svc.updateToDoList(event.body.id, event.body.dtDue, event.body.no, event.body.status, event.body.taskAssingd, event.body.taskDesc);
     }
 
     function deletToDoList(event: any, svc: todoListService): Promise<any> {
