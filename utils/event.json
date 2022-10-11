@@ -4,7 +4,7 @@
             "Connection": "keep-alive",
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36",
             "Cache-Control": "no-cache",
-            "Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6Imc4V0NoSktBZlpwTGNCaFIzclI3WnZTUC1sUSIsImtpZCI6Imc4V0NoSktBZlpwTGNCaFIzclI3WnZTUC1sUSJ9.eyJjbGllbnRfaWQiOiIxMDMyNi5zcGFjZW1hbmFnZW1lbnQuc210LndlYiIsInNjb3BlIjpbIm9wZW5pZCIsInByb2ZpbGUiXSwic3ViIjoiZnJlZGVyaWNrLnMubWFyYXJhYyIsImFtciI6InBhc3N3b3JkIiwiYXV0aF90aW1lIjoxNTE2MzgxMDI0LCJpZHAiOiJpZHNydiIsImlzcyI6InVybjpBY2NlbnR1cmU6RW1iZWRkZWRTVFMiLCJhdWQiOiJ1cm46QWNjZW50dXJlOkVtYmVkZGVkU1RTL3Jlc291cmNlcyIsImV4cCI6MTkyNDkwNTYwMCwibmJmIjoxNTE2MzgxNzQwfQ.PHc9p-L-0aqdCNYLj5IG_oUSQ6Dw6Gn6vWzHDPYb7q_M64TdCJFLawnAUd4s6KTP8AB8DCC2wfhkZzGPXbN7X1u6aN0ER-jMBWFW4DV6-iHuJNu9pe74knBOE4qJdAfDnphqVvqT5BT6BJXQks0UzWuEfJ9SaNSM1PgqEKpbXao0a8DaHMG3Mi3Uz1BGZQ_ALoq-Z34lzHkyCVr9iATsFaHUHbZlwHhZ9abHillqxBIyZ5a1jjEsWewMmLwF5QAEY2P7fsTPZVs3_BDtUc3PQQqcM2cT8aOvaFKNpREejmnAEDOVRKSbg082jTY8dDrTDP-WxKkL2iFMcgRH-v33KQ",
+            "Authorization": "Bearer ",
             "Postman-Token": "fe8e4ffb-fc1b-90f3-6e03-25d09387f116",
             "Accept": "*/*",
             "Accept-Encoding": "gzip, deflate, br",
