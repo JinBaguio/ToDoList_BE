@@ -5,7 +5,7 @@
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36",
             "Cache-Control": "no-cache",
             "Authorization": "Bearer ",
-            "Postman-Token": "fe8e4ffb-fc1b-90f3-6e03-25d09387f116",
+            "Postman-Token": "",
             "Accept": "*/*",
             "Accept-Encoding": "gzip, deflate, br",
             "Accept-Language": "en-US,en;q=0.9"
