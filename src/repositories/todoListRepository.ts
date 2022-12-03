@@ -4,7 +4,6 @@ let options = {
     region: process.env.REGION,
     endpoint: process.env.DYNAMODB
 };
-// test push from macbook pro BE sln
 
 let dynamoDB = new DynamoDB.DocumentClient(options);
 
